@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr. 6, 2020, 2:50:36 p.m.
+    Author     : Ethan
+*/
+
+img{
+    border: 2px solid black;
+}
+
+.form-field{
+	padding: 5px;
+}
+
+.flexSection{
+	display: flex;
+	flex-wrap: wrap; /*nowrap by default*/
+}
+.flexSection div{
+	margin: 10px;
+	width: 40%;
+	justify-content: center;
+}
+.flexSection div img{
+	display: block;
+}
+
+.clear{
+	clear: both;
+}
